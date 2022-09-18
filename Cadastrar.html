@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Formulario Avançado</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/cadastrar.css">
+</head>
+
+<body>
+    <img src="img/loogoo-removebg-preview.png">
+    <div class="page">
+        <form>
+            <fieldset>
+                <div class="fieldset-wrapper">
+
+                    <h1>Cadastrar</h1>
+
+                    <div class="input-wrapper">
+                        <label for="Nome">Nome:</label>
+                        <input type="text" required placeholder="Digite seu nome completo" id="Nome" />
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="Email">Email:</label>
+                        <input type="email" required placeholder="Digite seu Email" id="Email" />
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="Senha">Senha:</label>
+                        <input type="password" required placeholder="Digite sua senha" id="Senha" />
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="Data de nascimento">Data de nascimento:</label>
+                        <input type="date" required id="Data de nascimento" />
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="Telefone">Telefone:</label>
+                        <input type="number" required maxlength="10" placeholder="Digite seu número" id="Telefone" />
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="CPF">CPF:</label>
+                        <input type="number" required maxlength="11" placeholder="Digite seu CPF" id="CPF" />
+                    </div>
+
+                    <legend>Endereço</legend>
+
+                    <div class="input-wrapper">
+                        <label for="Rua">Rua:</label>
+                        <input type="text"  required placeholder="Nome da rua" id="Rua" />
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="Bairro">Bairro:</label>
+                        <input type="text" required placeholder="Nome do bairro" id="Bairro" />
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="Cidade">Cidade:</label>
+                        <input type="text" required placeholder="Nome da cidade" id="Cidade" />
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="CEP">CEP:</label>
+                        <input type="number" required placeholder="Digite seu CEP" id="CEP" />
+                    </div>
+                    <a href="usuarioCadastrado.html"><button type="button" class="btn btn-primary" >Salvar</button></a>
+                </div>
+            </div>
+            </fieldset>
+        </form>
+       
+</body>
+
+</html>
